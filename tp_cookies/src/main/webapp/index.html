@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Préférences</title>
+</head>
+<body>
+  <h2>Choisissez vos préférences</h2>
+
+  <form action="newUser" method="POST">
+    <table border="0" cellpadding="5">
+      <tr>
+        <td>Couleur de fond :</td>
+        <td><input type="color" name="bg" value="#ffffff"></td>
+      </tr>
+
+      <tr>
+        <td>Couleur de police préférée :</td>
+        <td>
+          <select name="police">
+            <option>green</option>
+            <option>red</option>
+            <option>blue</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Types de livres préférés :</td>
+        <td>
+          <select name="type">
+            <option>Programmation</option>
+            <option>Sécurité</option>
+            <option>Ingénierie</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Nombre préféré :</td>
+        <td><input type="number" name="fav" value="7"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <button type="submit">Sauvegarder</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
